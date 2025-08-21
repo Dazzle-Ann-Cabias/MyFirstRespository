@@ -1,7 +1,0 @@
-table,td,tr{
-    border-collapse: collapse;
-    width: 100%;
-  }
-  td,th,tr{
-    border: 100px solid black;
-  }

@@ -1,0 +1,133 @@
+body {
+    background: #000000;
+    padding: 20px;
+    color: white;
+}
+ /* assigned colour for tags */
+.c { color: #6A9955;}
+.class { color: #8f0988;}
+.tag { color: hsl(209, 77%, 48%);}
+.string { color: #1bd167;}
+.g { color: rgb(40, 84, 204);}
+.line {
+    border-right: 3px dotted red;
+}
+
+
+/* FUNCTIONAL VIEWING */
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+  }
+  pre {
+    font-size: 14px;
+  }
+}
+
+/*--------LEFT SIDE ------*/
+
+.cr1 {
+    display: block;
+    margin-top: -740px;
+    margin-left: -85px;
+    font-size: 19px;
+
+}
+.cr2 {
+    display: block;
+    margin-top: -63px;
+    margin-left: -85px;
+     font-size: 19px;
+}
+
+.cr3 {
+    display: block;
+    margin-top: -63px;
+    margin-left: -85px;
+     font-size: 19px;
+}
+.cr4 {
+    display: block;
+    margin-top: -63px;
+    margin-left: -85px;
+     font-size: 19px;
+}
+.cr5 {
+    display: block;
+    margin-top: -63px;
+    margin-left: -85px;
+   font-size: 19px;
+}
+
+
+/*------RIGHT SIDE--------*/
+.leftc {
+    display: block;
+    margin-top: -85px;
+}
+.c {
+    display: block;
+    font-size: 17px;
+    margin-top: -35px;
+    margin-left: 474px;
+}
+.cf1 {
+    font-size: 17px;
+    margin-left: 400px;
+    margin-top: -77px;
+}
+.cf2 {
+    display: block;
+    font-size: 17px;
+    margin-top: -63px;
+    margin-left: 400px;
+}
+.cf3 {
+    display: block;
+    font-size: 17px;
+    margin-top: -63px;
+    margin-left: 400px;
+}
+.cf4 {
+    display: block;
+    font-size: 17px;
+    margin-top: -63px;
+    margin-left: 400px;
+}
+
+
+/* IMAGE PLACEMENT*/
+.img1 {
+    display: block;
+    margin-top: -255px;
+    margin-left: -122px;
+    font-size: 17px;
+}
+
+.img2 {
+    display: block;
+    margin-top: 85px;
+    margin-left: -122px;
+    font-size: 17px;
+}
+
+.p {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover !important;
+    border-radius: 10px !important;
+    margin-left: 20px !important;
+    margin-top: -930px !important;
+    border: 2px solid #000000 !important;
+    display: block !important;
+}
+
+/* FUNCTIONAL VIEWING */
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+  }
+  pre {
+    font-size: 14px;
+  }
+}
